@@ -7,7 +7,7 @@ SkyTown Shell 命令语法稿（示例） v1.0.0.0
 4. `mkdir "hm"`：在目录下创建hm目录
 5. `cd "/hm"`：打开/hm目录（如果是变量则将目录存于变量中，不打开）
 6. `ls`：列出现目录下的所有目录![](./images/ls.png)
-7. `exit`：显示：“欢迎再次使用SkyTown Shell”，并禁止一切命令的输入，除非重按绿旗
+7. `exit`：直接退出终端
 8. `fp = cd "hm"`+`cp "example.skt" fp`：将现目录下的example.skt文件拷贝到hm目录下
 9. `tcr "abc"`：创建abc.skt文件
 10. `tree`：现阶段等同于ls命令
